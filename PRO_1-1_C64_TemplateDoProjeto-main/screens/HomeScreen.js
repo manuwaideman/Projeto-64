@@ -97,14 +97,14 @@ export default class HomeScreen extends Component{
                     <Text style={styles.detailsTitle}> Tipo :{" "}  </Text>
                     <Text style={{fontSize:18}}>
                       {/*Exibir a categoria aqui*/}
-                      {this.state.word}
+                      {this.state.lexicalCategory}
                     </Text>
                   </View>
                   <View style={{flexDirection:'row',flexWrap: 'wrap'}}>
                     <Text style={styles.detailsTitle}> Definição :{" "} </Text>
                     <Text style={{ fontSize:18}}>
                     {/*Exibir a definição aqui*/}
-                      {this.state.word}
+                      {this.state.definition}
                     </Text>
                   </View>
                 </View>
